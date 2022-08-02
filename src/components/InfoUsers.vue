@@ -65,7 +65,7 @@ export default {
 
 
                 </div>
-                <div class="user-image hidden  h-2/3 w-2/3 md:flex  md:m-8">
+                <div class="user-image  transform -translate-x-36 -translate-y-28 h-full w-full md:-translate-x-20  md:h-2/3 md:w-2/3 md:flex  md:m-8">
                     <img src="/drawkit-grape-pack-illustration-12.svg" class="self-center" alt="">
                 </div>
             </div>
@@ -103,7 +103,7 @@ export default {
 
 img {
    transform: translateX(135px) translateY(100px); 
-transition: all 500ms;
+    transition: all 500ms;
 }
 
 img:hover {
