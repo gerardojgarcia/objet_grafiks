@@ -1,6 +1,6 @@
 <template>
 
-<section class="hero h-screen flex " id="hero">
+<section class="hero  flex " id="hero">
     <div class="hero-shape shadow-sm"></div>
 
     <div class="hero-info flex flex-col mt-44 md:flex-row">

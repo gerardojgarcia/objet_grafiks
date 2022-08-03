@@ -4,7 +4,8 @@
 <Header message="Welcome back, Gerardo!" class="fixed z-20"/>
 <Hero/>
 <InfoUsers :cards="cards"/>
-<Analytics/>
+<Analytics :items="items"/>
+<Writings/>
 </template>
 
 
@@ -22,17 +23,25 @@ export default {
   HeroForm, 
   InfoUsers,
   InfoCard,
-  Analytics
+  Analytics,
+  AnalyticsCard,
+  Writings,
+  WritingsCard
   },
   data() {
             return {
 
-           cards: []         
+           cards: [],
+           
+           items: [],
+
+           blogs: []
         }
         },
 
         created() {
-          this.cards = [{
+          this.cards = [
+              {
                     id: 1,
                     title: 'Developers',
                     description: "The time is now for it to be okay fto be great. People in this world shun poepole for that eact reason . For being a bright color. For standing Out. Bu the time is now.",
@@ -55,6 +64,41 @@ export default {
 
                 }
                 ]
+
+          this.items =[
+            
+            {
+              id: 1,
+              title: 'Social Conversations',
+              description: 'We get insulted by others, lsoe trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand.',
+              src: '<i class="fa-solid fa-gear"></i>'
+            
+            
+            
+            },
+            {
+              id: 2,
+              title: 'Analyze Performance',
+              description: 'We get insulted by others, lsoe trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand.',
+              src: '<i class="fa-solid fa-atom"></i>'
+            
+            
+            
+            },
+            {
+              id: 3,
+              title: 'Measure Conversions',
+              description: 'We get insulted by others, lsoe trust for those others. We get back stabbed by friends. It becomes harder for us to give others a hand.',
+              src: '<i class="fa-solid fa-globe">'
+            
+            
+            
+            }
+
+
+          ]
+                
+
         },
   
 }
@@ -64,7 +108,10 @@ import Hero from './components/Hero.vue';
 import HeroForm from './components/HeroForm.vue'
 import InfoUsers from './components/InfoUsers.vue';
 import InfoCard from './components/InfoCard.vue';
-import Analytics from './components/Analytics.vue'
+import Analytics from './components/Analytics.vue';
+import AnalyticsCard from './components/AnalyticsCard.vue'
+import Writings from './components/Writings.vue'
+import WritingsCard from './components/WritingsCard.vue'
 
 
 

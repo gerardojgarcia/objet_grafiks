@@ -25,7 +25,7 @@ export default {
 
 
 <template>
-    <section class="users_section flex flex-col w-full pb-8">
+    <section class="users_section flex flex-col  w-full pb-8">
 
         <div class="users_container w-full bg-white w-5/6 md:w-3/5 self-center rounded shadow-md mt-8 isolate mb-2">
 
@@ -33,14 +33,14 @@ export default {
             <!--<strong v-for="names in names.length" :key="names" :index="index" :names-array="names.map(a => a.name)"> For {{names}}</strong>-->
 
 
-            <div class="users_container-items w-full flex flex-col md:flex-row md:justify-between">
+            <div class="users_container-items w-full flex flex-col lg:flex-row lg:justify-between">
 
 
 
 
-                <div class="user-items flex flex-col self-center md:w-1/2 my-16">
+                <div class="user-items flex flex-col self-center lg:w-1/2 my-16">
 
-                    <div class="info_card flex flex-col rounded bg-white  md:w-1/2 md:ml-24">
+                    <div class="info_card flex flex-col rounded bg-white  lg:w-1/2 lg:ml-24">
 
                        
 
