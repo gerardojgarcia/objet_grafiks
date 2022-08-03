@@ -21,7 +21,7 @@
 
 <template>
 
-    <div class="blog-card w-full flex flex-col mt-16 mb-4 isolate justify-end items-start rounded cursor-pointer shadow-md bg-blog-card1 ">
+    <div class="blog-card w-full flex flex-col mt-16 mb-4 lg:mx-2 isolate justify-end items-start rounded cursor-pointer shadow-md bg-blog-card1 ">
 
 
 

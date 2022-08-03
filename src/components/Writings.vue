@@ -26,7 +26,8 @@ export default {
                 card2: 'linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/pexels-eberhard-grossgasteiger-1699030.jpg)',
                 card3: 'linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/pexels-pixabay-417173.jpg)',
                 card4: 'linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/pexels-sebastian-palomino-1955134.jpg)',
-                backgroundSize: 'cover'
+                backgroundSize: 'cover',
+                bgPosition: 'center'
             } 
         
     }
@@ -41,35 +42,35 @@ export default {
 
 <section class="writings flex flex-col pb-24">
 
-    <div class="p-8">
-        <h4 class="text-3xl font-bold">Our Recent Writings</h4>
+    <div class="p-8 lg:p-16">
+        <h4 class="text-3xl font-bold lg:text-6xl">Our Recent Writings</h4>
     </div>
 
     <div class="flex self-center mx-8">
-        <p class="mx-2">I always felt like I coul do anyting. That's the main thing people are conroleld by! Thoughts their perception of themselves!
+        <p class="mx-2 lg:mx-16 lg:text-xl">I always felt like I coul do anyting. That's the main thing people are conroleld by! Thoughts their perception of themselves!
             They're slowed down by their perception of themselves. If yo're taught you cant' do antying. you won't do anyting. I was taught I could do everything. 
         </p>
     </div>
 
-    <div class="blog-cards flex flex-col w-full self-center items-center ">
+    <div class="blog-cards flex flex-col  w-full self-center items-center ">
 
-        <div class="blog-card flex flex-col w-5/6  px-4">
+        <div class="blog-card flex flex-col lg:flex-row lg:flex-no-wrap w-5/6 lg:w-full  px-2 lg:px-2">
 
 
-            <WritingsCard title="Research Byte" subtitle="AI on the edge" class="  hover:scale-125  transition-all "
+            <WritingsCard title="Research Byte" subtitle="AI on the edge" class="  hover:scale-125  lg:hover:scale-105 transition-all "
             
-               :style="{background: card1, 'background-size': backgroundSize}"
+               :style="{background: card1, 'background-size': backgroundSize, 'background-position': bgPosition}"
             
             
             />
 
-             <WritingsCard title="Data Virtualization" subtitle="Spectrum" class='card2 hover:scale-125  transition-all' :style="{background: card2, 'background-size': backgroundSize }" />
+             <WritingsCard title="Data Virtualization" subtitle="Spectrum" class='card2 hover:scale-125  lg:hover:scale-105 transition-all' :style="{background: card2, 'background-size': backgroundSize, 'background-position': bgPosition }" />
 
 
-             <WritingsCard title="New Challenges" subtitle="Touch on a trend" class=' card3 hover:scale-125  transition-all' :style="{background: card3, 'background-size': backgroundSize }"/>
+             <WritingsCard title="New Challenges" subtitle="Touch on a trend" class=' card3 hover:scale-125 lg:hover:scale-105 transition-all' :style="{background: card3, 'background-size': backgroundSize, 'background-position': bgPosition }"/>
 
 
-            <WritingsCard title="Driverless Future" subtitle="Self-Driving Cars" class='card4 hover:scale-125  transition-all' :style="{background: card4, 'background-size': backgroundSize }"/>
+            <WritingsCard title="Driverless Future" subtitle="Self-Driving Cars" class='card4 hover:scale-125 lg:hover:scale-105 transition-all' :style="{background: card4, 'background-size': backgroundSize, 'background-position': bgPosition }"/>
 
 
 
