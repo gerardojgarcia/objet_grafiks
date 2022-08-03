@@ -14,13 +14,13 @@
       </div>
       <div id="nav-menu" class="w-full hidden block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow">
-          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-200 mr-4">
+          <a href="#responsive-header" class=" nav-link block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-200 mr-4" @click="close()">
             Home
           </a>
-          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-200 mr-4">
+          <a href="#responsive-header" class="nav-link block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-200 mr-4">
             Services
           </a>
-          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-200">
+          <a href="#responsive-header" class="nav-link block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-200">
             Shop
           </a>
         </div>
@@ -54,6 +54,19 @@
         methods: {
             openMenu(){
                 document.querySelector('#nav-menu').classList.toggle('hidden')
+            },
+
+            close() {
+
+              for(let i=0; i < document.querySelectorAll('.nav-link').length; i++ ) {
+
+                document.querySelector('#nav-menu').classList.add('hidden')
+
+                }
+   
+              }
+
+             
             }
         }
 
@@ -62,7 +75,7 @@
 
 
 
-    }
+    
 
 
 
@@ -74,5 +87,7 @@ section {
     width: 100%;
     padding: 0;
 }
+
+
 
 </style>
