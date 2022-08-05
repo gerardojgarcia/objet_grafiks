@@ -6,6 +6,7 @@
 <InfoUsers :cards="cards"/>
 <Analytics :items="items"/>
 <Writings/>
+<Plan/>
 </template>
 
 
@@ -26,7 +27,9 @@ export default {
   Analytics,
   AnalyticsCard,
   Writings,
-  WritingsCard
+  WritingsCard,
+  Plan,
+  PlanCard
   },
   data() {
             return {
@@ -112,6 +115,8 @@ import Analytics from './components/Analytics.vue';
 import AnalyticsCard from './components/AnalyticsCard.vue'
 import Writings from './components/Writings.vue'
 import WritingsCard from './components/WritingsCard.vue'
+import Plan from './components/Plan.vue'
+import PlanCard from './components/PlanCard.vue'
 
 
 
