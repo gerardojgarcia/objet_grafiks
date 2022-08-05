@@ -25,35 +25,40 @@
 <template>
 
 
-    <div class="plan-card">
+    <div class="plan-card shadow-md w-full  flex flex-col justify-center items-center my-4">
 
-        <div class="plan-card-title">
+        <div class="plan-card-title text-xl py-8 ">
 
-            <strong>Gold</strong>
+            <strong class="text-blue-500">{{name}}</strong>
         </div>
 
-        <div class="plan-card-descr">
+        <div class="plan-card-descr text-blue-400">
 
-            <div class="plan-card-price">
+            <div class="plan-card-price flex flex-col py-8 text-center items-center justify-center text-center">
 
 
-                <p>{{price}}</p>
+                <p class="text-5xl font-bold text-blue-600"> {{'$' + price}}</p>
                 <p>per month</p>
 
             </div>
 
-            <p class="plan-card-data">
-                <p>{{storage + ' File Storage'}} </p>
+            <div class="plan-card-info ">
+                <p class="py-2"><span class="font-bold text-blue-600">{{storage + ' '}}</span>File Storage </p>
 
+                             
+                <p class="py-2"> <span class="font-bold text-blue-600">{{limit + " "}} </span>Users</p>
 
+                <p class="py-2"> <span class="font-bold text-blue-600"> {{tracking + " "}}</span>  Support</p>
 
-            </p>
+            </div>
 
 
 
         </div>
 
-
+<div class="my-8 text-blue-400">
+    <button class="demo">Request a Demo</button>
+</div>
 
     </div>
 
