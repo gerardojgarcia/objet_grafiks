@@ -29,7 +29,7 @@
 
         <div class="plan-card-title text-xl py-8 ">
 
-            <strong class="text-blue-500">{{name}}</strong>
+            <strong class="text-blue-500 border-b border-black">{{name}}</strong>
         </div>
 
         <div class="plan-card-descr text-blue-400">
@@ -57,7 +57,7 @@
         </div>
 
 <div class="my-8 text-blue-400">
-    <button class="demo">Request a Demo</button>
+    <button class="demo bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Request a Demo</button>
 </div>
 
     </div>
@@ -68,3 +68,10 @@
 
 
 </template>
+
+
+<style scoped>
+
+
+
+</style>

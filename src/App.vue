@@ -7,6 +7,7 @@
 <Analytics :items="items"/>
 <Writings/>
 <Plan/>
+<Footer />
 </template>
 
 
@@ -29,7 +30,8 @@ export default {
   Writings,
   WritingsCard,
   Plan,
-  PlanCard
+  PlanCard,
+  Footer
   },
   data() {
             return {
@@ -117,6 +119,7 @@ import Writings from './components/Writings.vue'
 import WritingsCard from './components/WritingsCard.vue'
 import Plan from './components/Plan.vue'
 import PlanCard from './components/PlanCard.vue'
+import Footer from './components/Footer.vue'
 
 
 
