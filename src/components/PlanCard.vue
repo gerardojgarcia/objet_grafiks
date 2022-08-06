@@ -27,9 +27,9 @@
 
     <div class="plan-card shadow-md w-full  flex flex-col justify-center items-center my-4">
 
-        <div class="plan-card-title text-xl py-8 ">
+        <div class="plan-card-title text-xl py-8 border-b border-grey-500 w-full">
 
-            <strong class="text-blue-500 border-b border-black">{{name}}</strong>
+            <strong class="text-blue-500 ">{{name}}</strong>
         </div>
 
         <div class="plan-card-descr text-blue-400">
@@ -56,7 +56,7 @@
 
         </div>
 
-<div class="my-8 text-blue-400">
+<div class="my-8 text-blue-400 border-t border-grey-500">
     <button class="demo bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Request a Demo</button>
 </div>
 

@@ -74,8 +74,8 @@ import PlanCard from './PlanCard.vue'
           <div class="plan-header ">
               <h5 class="text-4xl text-left mx-4 my-8">Choose a plan for you next project</h5>
                 <div class="plan-buttons flex flex-row ml-4 mb-12">
-                    <button class="cheaper bg-white text-blue-500 border-blue-500  hover:bg-blue-700 hover:text-white font-bold py-2 px-4 rounded mr-2" @click="cheaper()"> Cheaper</button>
-                    <button class="expensive selected bg-white text-blue-500 hover:bg-blue-700 border-blue-500 text-white font-bold py-2 px-4 rounded" @click="expensive()">Expensive</button>
+                    <button class="cheaper bg-white text-blue-500 border-blue-500  hover:bg-blue-700 hover:text-white font-bold py-2 px-4 rounded mr-2" @click="cheaper()"> Value</button>
+                    <button class="expensive selected bg-white text-blue-500 hover:bg-blue-700 border-blue-500 text-white font-bold py-2 px-4 rounded" @click="expensive()">Premium</button>
                 </div>
           </div>
 

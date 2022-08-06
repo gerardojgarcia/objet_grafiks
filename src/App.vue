@@ -20,8 +20,8 @@ export default {
 
 
   components: {
-    Header,
-    Hero,
+  Header,
+  Hero,
   HeroForm, 
   InfoUsers,
   InfoCard,
@@ -33,6 +33,7 @@ export default {
   PlanCard,
   Footer
   },
+  
   data() {
             return {
 
