@@ -48,7 +48,7 @@ export default {
 
     <div class="flex self-center mx-8 justify-center">
         <p class="mx-2 lg:mx-16 lg:text-xl lg:w-3/5 text-gray-500 ">I always felt like I coul do anyting. That's the main thing people are conroleld by! Thoughts their perception of themselves!
-            They're slowed down by their perception of themselves. If yo're taught you cant' do antying. you won't do anyting. I was taught I could do everything. 
+            They're slowed down by their perception of themselves. If you're taught you cant' do antying. you won't do anyting. I was taught I could do everything. 
         </p>
     </div>
 

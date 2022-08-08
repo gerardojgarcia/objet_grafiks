@@ -25,7 +25,7 @@
 <template>
 
 
-    <div class="plan-card shadow-md w-full  flex flex-col justify-center items-center my-4">
+    <div class="plan-card shadow-md w-full  flex flex-col justify-center items-center my-4 lg:w-72 lg:mx-4">
 
         <div class="plan-card-title text-xl py-8 border-b border-grey-500 w-full">
 

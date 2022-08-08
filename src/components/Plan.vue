@@ -69,27 +69,28 @@ import PlanCard from './PlanCard.vue'
 <template>
     <section class="plan">
 
-        <div class="plan-container">
+        <div class="plan-container flex flex-col w-full lg:px-32 lg:flex-row">
 
-          <div class="plan-header ">
+          <div class="plan-header flex flex-col lg:w-2/5">
               <h5 class="text-4xl text-left mx-4 my-8">Choose a plan for you next project</h5>
                 <div class="plan-buttons flex flex-row ml-4 mb-12">
-                    <button class="cheaper bg-white text-blue-500 border-blue-500  hover:bg-blue-700 hover:text-white font-bold py-2 px-4 rounded mr-2" @click="cheaper()"> Value</button>
-                    <button class="expensive selected bg-white text-blue-500 hover:bg-blue-700 border-blue-500 text-white font-bold py-2 px-4 rounded" @click="expensive()">Premium</button>
+                    <button class="cheaper bg-white text-blue-500 border-blue-500  hover:bg-blue-700 hover:text-white font-bold py-2 px-4 rounded mr-2 shadow-md" @click="cheaper()"> Value</button>
+                    <button class="expensive selected bg-white text-blue-500 hover:bg-blue-700 border-blue-500 text-white font-bold py-2 px-4 rounded shadow-md" @click="expensive()">Premium</button>
                 </div>
-          </div>
-
-          <div class="plan-description text-blue-400 mx-4 text-left text-lg">
+                 <div class="plan-description text-blue-400 mx-4 text-left text-lg">
 
 
 
             <p>You have free Unlimited Updated and Premium Support on each package. You also have 20 days to reques a refund. </p>
           </div>
+          </div>
+
+         
 
             <div class="plan-cards flex flex-col w-full justify-center items-center">
 
 
-                <div id="expensive-plan" class="  plan-card-container flex flex-col justify-center items-center w-4/5">
+                <div id="expensive-plan" class="  plan-card-container flex flex-col justify-center items-center w-4/5 lg:flex-row">
                     
                     
                     <PlanCard name="Gold" price="100" storage="200GB" limit="Unlimited" tracking="Premium"/>
@@ -98,7 +99,7 @@ import PlanCard from './PlanCard.vue'
                     
                     </div>
 
-                    <div id="cheaper-plan" class=" hidden plan-card-container flex flex-col justify-center items-center w-4/5 ">
+                    <div id="cheaper-plan" class=" hidden plan-card-container flex flex-col justify-center items-center w-4/5 lg:flex-row">
 
                         <PlanCard name="Standard" price="25" storage="20GB" limit="15" tracking="No"/>
                     

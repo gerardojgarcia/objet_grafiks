@@ -33,7 +33,7 @@ export default {
         
         </div>
 
-    <div class="analytics_cards flex flex-col w-full md:flex-row">
+    <div class="analytics_cards flex flex-col w-full md:flex-row md:px-28 justify-center">
 
         <div class="analytics_card flex flex-col  mx-2 my-2" v-for="item in items" :key="item.id">
 
