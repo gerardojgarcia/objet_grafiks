@@ -7,7 +7,7 @@
 <Analytics :items="items"/>
 <Writings/>
 <Plan/>
-<Footer />
+<Footer  />
 </template>
 
 

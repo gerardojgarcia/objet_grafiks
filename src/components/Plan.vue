@@ -69,7 +69,7 @@ import PlanCard from './PlanCard.vue'
 <template>
     <section class="plan">
 
-        <div class="plan-container flex flex-col w-full lg:px-32 lg:flex-row">
+        <div class="plan-container flex flex-col w-full lg:px-32 lg:flex-row pb-16">
 
           <div class="plan-header flex flex-col lg:w-2/5">
               <h5 class="text-4xl text-left mx-4 my-8">Choose a plan for you next project</h5>
@@ -103,7 +103,7 @@ import PlanCard from './PlanCard.vue'
 
                         <PlanCard name="Standard" price="25" storage="20GB" limit="15" tracking="No"/>
                     
-                    <PlanCard name="Premium" price="59" storage="50GB" limit="100" tracking="Premiium" />
+                    <PlanCard name="Growth" price="59" storage="50GB" limit="100" tracking="Premiium" />
 
 
 
